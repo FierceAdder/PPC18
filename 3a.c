@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 
-int main(void)
+void main()
 {
     char c;
     printf("Enter the character: ");
@@ -14,21 +14,14 @@ int main(void)
                 {
                     printf("\nCharacter is uppercase.");
                 }
-            if(islower(c))
-            {
+            else
                 printf("\nCharacter is lowercase.");
-            }
         }
-        if(isdigit(c)){
+        else
             printf("\nCharacter is numeric digit.");
-        }
     }
-    if(ispunct(c))
-    {
+    else if(ispunct(c))
         printf("\nCharacter is punctuation symbol.");
-    }
-    if(isspace(c))
-    {
+    else
         printf("\nCharacter is blank space.");
-    }
 }

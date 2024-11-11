@@ -17,8 +17,8 @@ void main(){
 		scanf("%d",&quiz[i]);
 		temp+=quiz[i];}
 	quiz[4]=temp;
-	temp=0;
-	for(int i=0;i<=1;i++)
+	
+	for(int i=0,temp=0;i<=1;i++)
 	{	
 		printf("Enter the score of Midterm %d : ",(i+1));
 		scanf("%d",&midterm[i]);
