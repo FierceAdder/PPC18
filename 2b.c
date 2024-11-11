@@ -2,10 +2,6 @@
 
 void main(){
 	int a=5,b=7,c=9,x,y;
-	
-	//statements
-	//printf("");
-	//scanf("");
 	printf("initial values of variables are : ");
 	printf("\na: %d\nb: %d\nc: %d\n",a,b,c);
 	x=a*4+b/2-c*b;

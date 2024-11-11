@@ -8,12 +8,9 @@
 #define FINAL_MAX 100.00
 
 void main(){
-	int quiz[5];
-	int temp=0;
-	int midterm[3];
-	int final;
+	int quiz[5],midterm[3],temp=0,final;
 	float percent[4];
-	
+
 	for(int i=0;i<=3;i++)
 	{	
 		printf("Enter the score of quiz %d : ",(i+1));
@@ -36,15 +33,13 @@ void main(){
 	percent[3]=percent[0]+percent[1]+percent[2];
 	
 	for(int i=0;i<=3;i++)
-	{	
 		printf("score of quiz %d : %d\n",(i+1),quiz[i]);
-	}
+	
 	printf("Total score of quizzes : %d\n",quiz[4]);
 	
 	for(int i=0;i<=1;i++)
-	{	
 		printf("score of Midterm %d : %d\n",(i+1),midterm[i]);
-	}
+
 	printf("Total score of MidTerms : %d\n",midterm[2]);
 	printf("score of final: %d\n",final);
 	
