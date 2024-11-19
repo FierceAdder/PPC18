@@ -11,9 +11,7 @@ void main()
         if(isalpha(c))
         {
             if(isupper(c))
-                {
-                    printf("\nCharacter is uppercase.");
-                }
+                printf("\nCharacter is uppercase.");
             else
                 printf("\nCharacter is lowercase.");
         }
