@@ -1,3 +1,1 @@
-printf("Enter the marks :  ");
-    // scanf("%d",&marks);
-    // printf("Grade : ");
+		for(int j=0,srow=0;j<c;j++){
