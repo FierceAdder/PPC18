@@ -26,11 +26,4 @@ void main(){
 		printf("\n");
 	}
 	
-	for (int i=0;i<order;i++){
-		for(int j=0;j<order;j++){
-			printf("%d  ",at[j][i]);
-			
-		}
-		printf("\n");
-	}
 }
