@@ -14,12 +14,6 @@ void main(){
 	}
 	for (int i=0;i<order;i++){
 		for(int j=0;j<order;j++){
-			at[j][i]=a[i][j];
-			
-		}
-	}
-	for (int i=0;i<order;i++){
-		for(int j=0;j<order;j++){
 			printf("%d  ",a[j][i]);
 			
 		}
