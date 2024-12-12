@@ -4,7 +4,7 @@ void main(){
 	int order;
 	printf("Enter the order of the matrix : ");
 	scanf("%d",&order);
-	int a[order][order],at[order][order];
+	int a[order][order];
 	printf("Enter the values for matrix :::"); 
 	for (int i=0;i<order;i++){
 		for(int j=0;j<order;j++){
